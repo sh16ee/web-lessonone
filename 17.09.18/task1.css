@@ -1,0 +1,44 @@
+img{
+  width: 90%;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: #aa2917;
+}
+.photo {
+  width: 20%;
+  height: 500px;
+  float: left;
+}
+.info {
+  width: 80%;
+  height: 500px;
+  float: right;
+  background-color: grey;
+  font-family: monospace;
+  font-size: 20px;
+}
+.info a:hover{
+  background-color: #aa2917;
+}
+.info a:active{
+  background-color: blue;
+}
+.text {
+  background-color: grey;
+  width: 95%;
+  float: left;
+  margin: 20px;
+  padding: 10px;
+}
+.task{
+  background-color: grey;
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin: 5px;
+
+  border: 10px dotted black;
+
+
+
+}
