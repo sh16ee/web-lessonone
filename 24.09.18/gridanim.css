@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  background-color: red;
+  width: 500px;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(5, 50px);
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+}
+.item {
+  background-color: orange;
+  border: 1px solid blue;
+  padding: 15px;
+}
+.animation {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  background-color: red;
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes anim {
+      0% {transform: rotate(0deg); left: 100px; top: 0px;}
+      25% {left: 200px; top: 200px;}
+      50% {left: 0px; top: 200px;}
+      75% {left: 100px; top: 0px;}
+      100% {transform: rotate(360deg); left: 100px; top: 0px;}
+}
