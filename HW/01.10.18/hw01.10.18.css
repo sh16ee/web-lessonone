@@ -1,0 +1,44 @@
+.articles{
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dee0e2;
+}
+.article {
+  background-color: #383b3f;
+  width: 48%;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+img {
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+h3 {
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+}
+.articles div:hover {
+  background-color: #2a2a2b;
+}
+@media screen and (min-width: 100px) and (max-width: 1028px) {
+  .articles {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background-color: #dee0e2;
+    align-items: flex-end;
+  }
+  .article {
+    background-color: #383b3f;
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    height: 300px;
+    float: left;
+  }
+}
